@@ -1,0 +1,11 @@
+{
+  "name": "@synapz/solana-wire-codec",
+  "version": "0.1.0",
+  "description": "Dependency-free Solana base58 and exact integer wire codecs extracted from SYNAPZ Geyser",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "exports": {".": {"types": "./src/codec.d.ts", "default": "./src/codec.js"}},
+  "engines": {"node": ">=20"},
+  "scripts": {"test": "node --test test/*.test.js", "example": "node examples/decode.js"}
+}
